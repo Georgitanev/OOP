@@ -5,7 +5,7 @@ Black jack game launch file
 from play_black_jack.deck import Deck
 from play_black_jack.player import Player
 
-
+print("new ci cd test")
 class Blackjack:
     """
     docstring test
