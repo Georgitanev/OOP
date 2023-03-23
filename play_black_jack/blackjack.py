@@ -9,6 +9,7 @@ from play_black_jack.player import Player
 class Blackjack:
     """
     docstring test
+    A very good game
     """
     def __init__(self):
         self.deck = Deck()
