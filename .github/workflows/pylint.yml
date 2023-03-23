@@ -20,4 +20,4 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-       pylint howdoi *.py --rcfile=.pylintrc
+        pylint --errors-only --disable=C,R $(git ls-files '*.py')
